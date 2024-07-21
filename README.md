@@ -15,11 +15,13 @@ Welcome to the ProdigyTech Password Complexity Checker! This Python project is d
 4.Ease of Use: The project is implemented in Python, ensuring ease of understanding and modification for developers.
 Components
 
+
 **_The ProdigyTech Password Complexity Checker comprises two major components:_**
 
 1.Password Identification: This component is responsible for detecting and capturing passwords provided by users.
 
 2.Strength Assessment: The strength assessment component evaluates the complexity of passwords based on the presence of uppercase letters, lowercase letters, digits, and special characters.
+
 
 **_Usage:_**
 
@@ -36,12 +38,17 @@ View Result: The program will output the strength of the password, indicating wh
 The Password Complexity Checker employs a set of rules to evaluate the complexity of passwords. These rules include:
 
 Presence of uppercase letters
+
 Presence of lowercase letters
+
 Presence of digits
+
 Presence of special characters
 
 Based on the combination of these factors, the program categorizes passwords into three main categories:
 
 Strong: Passwords with a diverse combination of uppercase letters, lowercase letters, digits, and special characters.
+
 Weak: Passwords lacking one or more essential components such as uppercase letters, lowercase letters, digits, or special characters.
+
 Medium: Passwords that meet some, but not all, criteria for strong passwords.
